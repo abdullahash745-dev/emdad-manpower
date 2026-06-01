@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "محرك لوجستيات القوى العاملة — إيمداد",
+    "last_updated": "2026-06-01",
+    "admin": "عبدالله"
+  },
+  "orders": [
+    {
+      "id": 1,
+      "label": "الطلب الأول",
+      "total": 60,
+      "deployed": 47,
+      "color": "#F59E0B",
+      "status": "active",
+      "note": "منتشرون — لا تفاصيل مواقع حالياً",
+      "client": "إيمداد",
+      "sites": []
+    },
+    {
+      "id": 2,
+      "label": "الطلب الثاني",
+      "total": 60,
+      "deployed": 30,
+      "color": "#3B82F6",
+      "status": "active",
+      "note": "",
+      "client": "إيمداد",
+      "sites": [
+        { "name": "أكاديمية المهد",        "count": 21, "color": "#10B981", "status": "active" },
+        { "name": "سكن وادي صفار (standby)", "count": 9,  "color": "#6366F1", "status": "standby" }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "الطلب الثالث",
+      "total": 14,
+      "deployed": 0,
+      "color": "#8B5CF6",
+      "status": "pending",
+      "note": "لم يُوفَّر بعد — قيد التوظيف",
+      "client": "إيمداد",
+      "sites": [],
+      "positions": [
+        { "role": "مزارع",             "qty": 9, "gender": "ذكر",  "icon": "🌱" },
+        { "role": "عامل ضيافة",         "qty": 1, "gender": "ذكر",  "icon": "☕" },
+        { "role": "رسام",              "qty": 1, "gender": "ذكر",  "icon": "🎨" },
+        { "role": "عامل تحميل وتنزيل",  "qty": 3, "gender": "ذكر",  "icon": "📦" }
+      ],
+      "cancelled_note": "تم إلغاء 3 عاملات (فلبينيات) — سيتم توفيرهن عبر شركة أخرى"
+    },
+    {
+      "id": 4,
+      "label": "الطلب الرابع",
+      "total": 41,
+      "deployed": 0,
+      "color": "#EF4444",
+      "status": "pending",
+      "note": "قيد التوظيف",
+      "client": "هيئة تطوير المنطقة الشرقية",
+      "sites": [],
+      "positions": [
+        { "role": "عامل نظافة",   "qty": 27, "gender": "ذكر",   "icon": "🧹" },
+        { "role": "موظف ضيافة",  "qty": 8,  "gender": "ذكر",   "icon": "☕" },
+        { "role": "عاملة نظافة", "qty": 6,  "gender": "أنثى",  "icon": "🧹" }
+      ]
+    }
+  ],
+  "transfers": [
+    {
+      "id": "TRF-001",
+      "date": "2024-01-01",
+      "from_order": "الطلب الثاني",
+      "to_site": "أكاديمية المهد",
+      "qty": 21,
+      "executed_by": "إدارة المشاريع",
+      "status": "executed"
+    }
+  ]
+}
