@@ -2,7 +2,8 @@
   "meta": {
     "title": "محرك لوجستيات القوى العاملة — إيمداد",
     "last_updated": "2026-06-01",
-    "admin": "عبدالله"
+    "admin": "عبدالله الشواف",
+    "system_note": "نظام متابعة طلبات إيمداد — تصميم وإنشاء عبدالله الشواف"
   },
   "orders": [
     {
@@ -26,8 +27,8 @@
       "note": "",
       "client": "إيمداد",
       "sites": [
-        { "name": "أكاديمية المهد",        "count": 21, "color": "#10B981", "status": "active" },
-        { "name": "سكن وادي صفار (standby)", "count": 9,  "color": "#6366F1", "status": "standby" }
+        { "name": "أكاديمية المهد", "count": 21, "color": "#10B981", "status": "active" },
+        { "name": "سكن وادي صفار (standby)", "count": 9, "color": "#6366F1", "status": "standby" }
       ]
     },
     {
@@ -41,10 +42,10 @@
       "client": "إيمداد",
       "sites": [],
       "positions": [
-        { "role": "مزارع",             "qty": 9, "gender": "ذكر",  "icon": "🌱" },
-        { "role": "عامل ضيافة",         "qty": 1, "gender": "ذكر",  "icon": "☕" },
-        { "role": "رسام",              "qty": 1, "gender": "ذكر",  "icon": "🎨" },
-        { "role": "عامل تحميل وتنزيل",  "qty": 3, "gender": "ذكر",  "icon": "📦" }
+        { "role": "مزارع",            "qty": 9, "gender": "ذكر",  "icon": "🌱" },
+        { "role": "عامل ضيافة",        "qty": 1, "gender": "ذكر",  "icon": "☕" },
+        { "role": "رسام",             "qty": 1, "gender": "ذكر",  "icon": "🎨" },
+        { "role": "عامل تحميل وتنزيل", "qty": 3, "gender": "ذكر",  "icon": "📦" }
       ],
       "cancelled_note": "تم إلغاء 3 عاملات (فلبينيات) — سيتم توفيرهن عبر شركة أخرى"
     },
@@ -59,9 +60,9 @@
       "client": "هيئة تطوير المنطقة الشرقية",
       "sites": [],
       "positions": [
-        { "role": "عامل نظافة",   "qty": 27, "gender": "ذكر",   "icon": "🧹" },
-        { "role": "موظف ضيافة",  "qty": 8,  "gender": "ذكر",   "icon": "☕" },
-        { "role": "عاملة نظافة", "qty": 6,  "gender": "أنثى",  "icon": "🧹" }
+        { "role": "عامل نظافة",  "qty": 27, "gender": "ذكر",  "icon": "🧹" },
+        { "role": "موظف ضيافة", "qty": 8,  "gender": "ذكر",  "icon": "☕" },
+        { "role": "عاملة نظافة","qty": 6,  "gender": "أنثى", "icon": "🧹" }
       ]
     }
   ],
